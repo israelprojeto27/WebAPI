@@ -1,0 +1,55 @@
+﻿@model ClientPassRazorPage.api.ProdutoData
+
+@{
+    ViewData["Title"] = "Atualiza";
+}
+
+<h2>Atualiza</h2>
+
+<h4>ProdutoData</h4>
+<hr />
+
+
+<form action="/Produto/Atualiza" method="post">
+    <input type="hidden" id="id" name="produto.Id" value="@ViewBag.Produto.Id" />
+
+    <div class="form-group mx-sm-3 mb-2">
+        <labe for="nome">Nome</labe>
+        <input type="text" id="nome" name="produto.Nome" class="form-control" value="@ViewBag.Produto.Nome" />
+        <small class="text-danger">
+            @Html.ValidationMessage("produto.Nome")
+        </small>
+    </div>
+
+
+    <div class="form-group mx-sm-3 mb-2">
+        <labe for="descricao">Descrição</labe>
+        <input type="text" id="descricao" name="produto.Descricao" class="form-control" value="@ViewBag.Produto.Descricao" />
+        <small class="text-danger">
+            @Html.ValidationMessage("produto.Descricao")
+        </small>
+    </div>
+
+    <div class="form-group mx-sm-3 mb-2">
+        <labe for="preco">Preço</labe>
+        <input type="text" id="preco" name="produto.Preco" class="form-control" value="@ViewBag.Produto.Preco" />
+        <small class="text-danger">
+            @Html.ValidationMessage("produto.Preco")
+        </small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Atualizar </button>
+
+    <br>  <br>
+
+    <small class="text-success">
+        @ViewBag.Message
+    </small>
+
+</form>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Avisos</h2>
+
+@Html.ActionLink("Novo Aviso", "Create", "Aviso")
+
+<br>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Tipo Aviso</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>         
+        </tr>
+    </tbody>
+</table>
+
+
+
+@*
+    Fazer este tratamento para que quando nao houver nenhum registro na lista entao exibir uma mensagem de que NAO EXISTE REGISTRO CADASTRADO
+@if (ViewBag.Produto == null)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Tipo Aviso</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+}
+*@

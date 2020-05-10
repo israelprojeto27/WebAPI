@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Produtos</h2>
+
+@Html.ActionLink("Novo Produto", "Create", "Produto")
+
+<br>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Nome </th>
+            <th>Preço </th>
+            <th>Descrição </th>
+            <th> </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var produto in ViewBag.ListaProdutos)
+        {
+            <tr>
+                <td>@produto.Nome</td>
+                <td>@produto.Preco</td>
+                <td>@produto.Descricao</td>
+                <td>@Html.ActionLink("Editar", "Edit", new { id = produto.Id} )</td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/1ga7er2SWuHpOkgmh8mr35vh6zNoScJlt7bOl4QpB/drZpkoDdD9lgATPNA4Trhe+tepGlMQm3Y+j9suxU4GQ==",
+  "dgSpecHash": "zLs7ZGFE2IvHEm4WR7ZhysQEljgxaClIAdNarQ1u0/tJMiD2oXrfGNdVM9BigbM9eRJEGjsrYJCrCe/AU/J2jg==",
   "success": true,
-  "projectFilePath": "D:\\ProjectVisualStudio\\ClientPassRazorPage\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
+  "projectFilePath": "D:\\GitHubASP\\WebAPI\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

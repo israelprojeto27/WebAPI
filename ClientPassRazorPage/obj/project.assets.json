@@ -12628,11 +12628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectVisualStudio\\ClientPassRazorPage\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
+      "projectUniqueName": "D:\\GitHubASP\\WebAPI\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
       "projectName": "ClientPassRazorPage",
-      "projectPath": "D:\\ProjectVisualStudio\\ClientPassRazorPage\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
+      "projectPath": "D:\\GitHubASP\\WebAPI\\ClientPassRazorPage\\ClientPassRazorPage.csproj",
       "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectVisualStudio\\ClientPassRazorPage\\ClientPassRazorPage\\obj\\",
+      "outputPath": "D:\\GitHubASP\\WebAPI\\ClientPassRazorPage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

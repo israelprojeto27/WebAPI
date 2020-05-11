@@ -26,6 +26,7 @@ namespace ClientPassRazorPage.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(long id)
         {
+            //Comentario
             ProdutoData produto = new ProdutoData();
             HttpClient client = _api.Initial();
             HttpResponseMessage res = await client.GetAsync("api/produto/" + id);

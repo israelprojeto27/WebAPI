@@ -44,7 +44,6 @@ namespace ClientPassRazorPage.Controllers
         [HttpPost]
         public async Task<IActionResult> ConfirmDelete(Produto produto)
         {            
-            // Segundo Comentario
             HttpClient client = _api.Initial();
             HttpResponseMessage res = await client.DeleteAsync("RemoveProduto/" + produto.Id);
             if (res.IsSuccessStatusCode)
